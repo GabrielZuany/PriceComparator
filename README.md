@@ -44,4 +44,3 @@
   - Date: 09/10/2022 (_last update_)<br>
   - **Please, feel free to suggest improvements and new features!**<br>
   - You can contact me in _gabrielzuanyduartevargas@gmail.com_.<br>
-  - [Souce Code](https://github.com/GabrielZuany/PriceComparator)
