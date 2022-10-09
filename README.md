@@ -21,14 +21,14 @@
   
 ## Histograms:
   <br><br>
-  <img src="https://github.com/GabrielZuany/PriceComparator/ExtractedData/JoinedPlots.png" width="500" height="400" />
-  <img src="https://github.com/GabrielZuany/PriceComparator/ExtractedData/SeparatedPlots.png" width="500" height="400" />
+  <img src="https://github.com/GabrielZuany/PriceComparator/blob/main/ExtractedData/JoinedPlots.png" width="500" height="400" />
+  <img src="https://github.com/GabrielZuany/PriceComparator/blob/main/ExtractedData/SeparatedPlots.png" width="500" height="400" />
   <br><br>
   
 ## XLSX files:
 <br><br>
-  <img src="https://github.com/GabrielZuany/PriceComparator/img/AmzScreenShot.png" width="500" height="400" />
-  <img src="https://github.com/GabrielZuany/PriceComparator/img/ML_ScreenShot.png" width="500" height="400" />
+  <img src="https://github.com/GabrielZuany/PriceComparator/blob/main/img/AmzScreenShot.png" width="500" height="400" />
+  <img src="https://github.com/GabrielZuany/PriceComparator/blob/main/img/ML_ScreenShot.png" width="500" height="400" />
   <br><br>
   
 ## Last Updates:
