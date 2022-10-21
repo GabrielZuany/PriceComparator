@@ -100,7 +100,7 @@ def TableToExcel(Amz_list):
     """
     path = getcwd()
     df_prod = pd.DataFrame(Amz_list, columns=['Product', 'AMZ Price (R$)', 'Link'])
-    df_prod.to_excel(f"{path}/DataAnalysis/AmzProd.xlsx", index=False)
+    df_prod.to_excel(f"{path}/ExtractedData/AmzProd.xlsx", index=False)
     return df_prod
 
 

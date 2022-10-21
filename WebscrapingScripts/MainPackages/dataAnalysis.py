@@ -39,7 +39,7 @@ def BuildJoinedPlot(column, store, color, meancolor, mediancolor, edgelinecolor)
     plt.tight_layout()
     path = getcwd()
     
-    plt.savefig(f'{path}/DataAnalysis/JoinedPlots.png', dpi=200)
+    plt.savefig(f'{path}/img/JoinedPlots.png', dpi=200)
     
     
 def BuildSeparatedPlot(df1,df2):
@@ -55,7 +55,7 @@ def BuildSeparatedPlot(df1,df2):
     
     df1.hist('ML Price (R$)',color='r', edgecolor='black', alpha=0.5, ax=axes[0])
     df2.hist('AMZ Price (R$)',color='g', edgecolor='black', alpha=0.5, ax=axes[1])
-    plt.savefig(f'{path}/DataAnalysis/SeparatedPlots.png', dpi=200)
+    plt.savefig(f'{path}/img/SeparatedPlots.png', dpi=200)
  
 
     """

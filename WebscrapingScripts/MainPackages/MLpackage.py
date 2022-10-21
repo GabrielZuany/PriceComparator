@@ -109,7 +109,7 @@ def TableToExcel(ML_list):
     """
     path = getcwd()
     df_products = pd.DataFrame(ML_list, columns=['Product', 'ML Price (R$)', 'Link'])
-    df_products.to_excel(f'{path}/DataAnalysis/ML_list.xlsx', index=False)
+    df_products.to_excel(f'{path}/ExtractedData/ML_list.xlsx', index=False)
     return df_products
     
     

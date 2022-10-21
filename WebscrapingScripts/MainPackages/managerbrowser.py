@@ -36,7 +36,7 @@ def OpenGoogleWindow(Show=False):
     #Try to start the webdriver with chromedriver.exe in /Webdriver/. If it fails, make a temporary install.
     try:
         path = getcwd()
-        browser = webdriver.Chrome(executable_path=f'{path}/ExtractData_Webscraping/Webdriver/chromedriver.exe',options=options)
+        browser = webdriver.Chrome(executable_path=f'{path}/WebscrapingScripts/Webdriver/chromedriver.exe',options=options)
     except:
         browser = webdriver.Chrome(ChromeDriverManager().install(), options=options)
         
