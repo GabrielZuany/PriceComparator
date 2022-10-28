@@ -43,4 +43,4 @@
   - Author: Gabriel Zuany Duarte Vargas. (ES, Brazil)<br>
   - Date: 09/10/2022 (_last update_)<br>
   - **Please, feel free to suggest improvements and new features!**<br>
-  - You can contact me in _gabrielzuanyduartevargas@gmail.com_.<br>
+  - You can contact me in _gzuanydev@gmail.com_.<br>
