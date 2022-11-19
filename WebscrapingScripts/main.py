@@ -1,9 +1,10 @@
 import MainPackages.makescrapy as ms
 from MainPackages.managerbrowser import OpenGoogleWindow, DefGoogleUrl
 from MainPackages.dataAnalysis import BuildSeparatedPlot
+from pyautogui import prompt
 
 #-----Main------
-product = input('What do you want to search? ')
+product = prompt(text="What do you want to search?", title="Price Comparator", default="Product")
 
 browser = OpenGoogleWindow(Show=True) 
 

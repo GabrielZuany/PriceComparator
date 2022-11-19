@@ -1,4 +1,26 @@
 # Price Comparator using Web Scraping with Python
+
+## Getting Started
+- First you'll need to install python modules:
+  ~~~Shell
+  pip install selenium
+  pip install bs4
+  pip install pyautogui
+  pip install  webdrivermanager
+  pip install matplotlib
+  pip install pandas
+  ~~~
+
+- Then, clone the repository:
+  ~~~Shell
+  git clone https://github.com/GabrielZuany/PriceComparator.git
+  ~~~
+  <br>
+  
+  - After run the code, the only thing you need to do is insert the product name and click 'OK' <br><br>
+  <img src="img/textbox.png" />
+  <br><br>
+
 ## The reason behind the project:
  Automate the search, table and manipulate several information from different databases with specific structure.
  In this case, the database was a lot of commercial websites in witch each of them have their own builded HTML and CSS differently to the others.
@@ -21,26 +43,21 @@
   
 ## Histograms:
   <br><br>
-  <img src="/docs/assets/JoinedPlots.png" width="500" height="400"/>
-  <img src="/docs/assets/SeparatedPlots.png" width="500" eight="400"/>
+  <img src="docs/assets/JoinedPlots.png" width="500" height="400"/>
+  <img src="docs/assets/SeparatedPlots.png" width="500" eight="400"/>
   <br><br>
   
 ## XLSX files:
 <br><br>
-  <img src="/docs/assets/AmzScreenShot.png" width="500" height="400"/>
-  <img src="/docs/assets/ML_ScreenShot.png" width="500" height="400"/>
+  <img src="docs/assets/AmzScreenShot.png" width="500" height="400"/>
+  <img src="docs/assets/ML_ScreenShot.png" width="500" height="400"/>
   <br><br>
   
 ## Last Updates:
-  - Remove the R script and replace it to a builded python module (reason: make the full process 100% autonomous step by step. No need to execute another script).<br>
-  - Build two different histograms:<br>
-    1. Superimposed histograms (JoinedPlot.png), with mean and median;<br>
-    2. Histograms side by side (SeparatedPlot.png).<br>
-  - Product to be search set dynamically by user.<br>
-  - Comment the full code using docstring.
+  - Displays a window asking the user to enter the product name they want to search.
 
 ## Additional Information:
   - Author: Gabriel Zuany Duarte Vargas. (ES, Brazil)<br>
-  - Date: 09/10/2022 (_last update_)<br>
+  - Date: 18/11/2022 (_last update_)<br>
   - **Please, feel free to suggest improvements and new features!**<br>
   - You can contact me in _gzuanydev@gmail.com_.<br>
